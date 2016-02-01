@@ -6,19 +6,27 @@ He is apprehensive because he has never shown a foreign film and is worried abou
 
 My goal is to predict which type of foreign film will yield the greatest revenue. 
 
-Data from ![BoxOfficeMojo.com]http://www.boxofficemojo.com/ is used to determine which film features (listed below) are most correlated with the sales.
+Data from [BoxOfficeMojo.com]http://www.boxofficemojo.com/ is used to determine which film features (listed below) are most correlated with the sales.
 
 Features: 
 
-*Country
-*Genre (Action/Drama/Comedy,etc…)
-*Operating budget
-*Runtime
-*MPAA Ratings
+* Country
+* Genre (Action/Drama/Comedy,etc…)
+* Operating budget
+* Runtime
+* MPAA Ratings
 
 Procedures:
 Beautiful Soup 4 was used to scrape the film data from BoxOfficeMojo.com
 Data was collected for almost 1,800 movies but several files had missing data for operating budget, genre and country.
+
+Predictions:
+
+Three features proved to have the highest correlation with Gross Domestic Product:
+* Country: Movies from Italy, France and China outperform other countries. 
+* Runtime: The longer a movie runs, the higher revenue it generates. 
+* Ratings: R-Rated movies generate better revenue.
+
  
 
 
